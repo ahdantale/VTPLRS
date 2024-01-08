@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1465BD25677EAA00AD882B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1465BC25677EAA00AD882B /* AppDelegate.swift */; };
+		EF1465BF25677EAA00AD882B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1465BE25677EAA00AD882B /* SceneDelegate.swift */; };
+		EF1465C125677EAA00AD882B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1465C025677EAA00AD882B /* ViewController.swift */; };
+		EF1465C425677EAA00AD882B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1465C225677EAA00AD882B /* Main.storyboard */; };
+		EF1465C625677EAF00AD882B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1465C525677EAF00AD882B /* Assets.xcassets */; };
+		EF1465C925677EAF00AD882B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1465C725677EAF00AD882B /* LaunchScreen.storyboard */; };
+		EF1465D12567959600AD882B /* LocationHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1465D02567959600AD882B /* LocationHistoryVC.swift */; };
+		EF1465D32567A0C100AD882B /* VehicleDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1465D22567A0C100AD882B /* VehicleDetailsVC.swift */; };
+		EF1465D52567B2BD00AD882B /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1465D42567B2BD00AD882B /* SettingsVC.swift */; };
+		EF1465D72567B71100AD882B /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1465D62567B71100AD882B /* ProfileVC.swift */; };
+		EF1465D92567BCD600AD882B /* ReportTheftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1465D82567BCD600AD882B /* ReportTheftVC.swift */; };
+		EF1465DB2567C1A300AD882B /* MainHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1465DA2567C1A300AD882B /* MainHomeVC.swift */; };
+		EF1465DE2567C48600AD882B /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1465DD2567C48600AD882B /* SignInVC.swift */; };
+		EF1465E02567C4A000AD882B /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1465DF2567C4A000AD882B /* RegisterVC.swift */; };
+		EF37E4DC2567E25000AE3219 /* RecoverPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF37E4DB2567E25000AE3219 /* RecoverPasswordVC.swift */; };
+		EF4B308B264D87B20019A1FE /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4B308A264D87B20019A1FE /* LocationService.swift */; };
+		EF4B308D264E442E0019A1FE /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4B308C264E442E0019A1FE /* Device.swift */; };
+		EF4B308F264E84CC0019A1FE /* MailerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4B308E264E84CC0019A1FE /* MailerService.swift */; };
+		EFC574DA2642673300FDFBEC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC574D92642673300FDFBEC /* User.swift */; };
+		EFC574DC2642677E00FDFBEC /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC574DB2642677E00FDFBEC /* Location.swift */; };
+		EFC574DF264269DC00FDFBEC /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC574DE264269DC00FDFBEC /* UserService.swift */; };
+		EFC574E22642771E00FDFBEC /* Statics.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC574E12642771E00FDFBEC /* Statics.swift */; };
+		EFC574E426427D3100FDFBEC /* DeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC574E326427D3100FDFBEC /* DeviceService.swift */; };
+		EFC574E62642CA8400FDFBEC /* RegisterVehicleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC574E52642CA8400FDFBEC /* RegisterVehicleVC.swift */; };
+		EFC574E82642DA3F00FDFBEC /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC574E72642DA3F00FDFBEC /* Vehicle.swift */; };
+		EFC574EA2642DAFB00FDFBEC /* VehicleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC574E92642DAFB00FDFBEC /* VehicleService.swift */; };
+		EFC574EC2643082900FDFBEC /* PayloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC574EB2643082900FDFBEC /* PayloadService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF1465B925677EAA00AD882B /* VTPLRS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VTPLRS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1465BC25677EAA00AD882B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF1465BE25677EAA00AD882B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF1465C025677EAA00AD882B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF1465C325677EAA00AD882B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF1465C525677EAF00AD882B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF1465C825677EAF00AD882B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF1465CA25677EAF00AD882B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1465D02567959600AD882B /* LocationHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHistoryVC.swift; sourceTree = "<group>"; };
+		EF1465D22567A0C100AD882B /* VehicleDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailsVC.swift; sourceTree = "<group>"; };
+		EF1465D42567B2BD00AD882B /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		EF1465D62567B71100AD882B /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		EF1465D82567BCD600AD882B /* ReportTheftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTheftVC.swift; sourceTree = "<group>"; };
+		EF1465DA2567C1A300AD882B /* MainHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHomeVC.swift; sourceTree = "<group>"; };
+		EF1465DD2567C48600AD882B /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		EF1465DF2567C4A000AD882B /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		EF37E4DB2567E25000AE3219 /* RecoverPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPasswordVC.swift; sourceTree = "<group>"; };
+		EF4B308A264D87B20019A1FE /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		EF4B308C264E442E0019A1FE /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		EF4B308E264E84CC0019A1FE /* MailerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailerService.swift; sourceTree = "<group>"; };
+		EFC574D92642673300FDFBEC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = VTPLRS/ViewControllers/User.swift; sourceTree = SOURCE_ROOT; };
+		EFC574DB2642677E00FDFBEC /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		EFC574DE264269DC00FDFBEC /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		EFC574E12642771E00FDFBEC /* Statics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Statics.swift; path = VTPLRS/Services/Statics.swift; sourceTree = SOURCE_ROOT; };
+		EFC574E326427D3100FDFBEC /* DeviceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceService.swift; sourceTree = "<group>"; };
+		EFC574E52642CA8400FDFBEC /* RegisterVehicleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVehicleVC.swift; sourceTree = "<group>"; };
+		EFC574E72642DA3F00FDFBEC /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		EFC574E92642DAFB00FDFBEC /* VehicleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleService.swift; sourceTree = "<group>"; };
+		EFC574EB2643082900FDFBEC /* PayloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayloadService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF1465B625677EAA00AD882B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF1465B025677EAA00AD882B = {
+			isa = PBXGroup;
+			children = (
+				EF1465BB25677EAA00AD882B /* VTPLRS */,
+				EF1465BA25677EAA00AD882B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1465BA25677EAA00AD882B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF1465B925677EAA00AD882B /* VTPLRS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1465BB25677EAA00AD882B /* VTPLRS */ = {
+			isa = PBXGroup;
+			children = (
+				EFC574E02642770900FDFBEC /* Statics */,
+				EFC574DD264269BE00FDFBEC /* Services */,
+				EFC574D82642672500FDFBEC /* Models */,
+				EF1465DC2567C45400AD882B /* ViewControllers */,
+				EF1465BC25677EAA00AD882B /* AppDelegate.swift */,
+				EF1465BE25677EAA00AD882B /* SceneDelegate.swift */,
+				EF1465C225677EAA00AD882B /* Main.storyboard */,
+				EF1465C525677EAF00AD882B /* Assets.xcassets */,
+				EF1465C725677EAF00AD882B /* LaunchScreen.storyboard */,
+				EF1465CA25677EAF00AD882B /* Info.plist */,
+			);
+			path = VTPLRS;
+			sourceTree = "<group>";
+		};
+		EF1465DC2567C45400AD882B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF1465DD2567C48600AD882B /* SignInVC.swift */,
+				EF1465DF2567C4A000AD882B /* RegisterVC.swift */,
+				EF1465DA2567C1A300AD882B /* MainHomeVC.swift */,
+				EF1465C025677EAA00AD882B /* ViewController.swift */,
+				EF1465D02567959600AD882B /* LocationHistoryVC.swift */,
+				EF1465D22567A0C100AD882B /* VehicleDetailsVC.swift */,
+				EF1465D42567B2BD00AD882B /* SettingsVC.swift */,
+				EF1465D62567B71100AD882B /* ProfileVC.swift */,
+				EF1465D82567BCD600AD882B /* ReportTheftVC.swift */,
+				EF37E4DB2567E25000AE3219 /* RecoverPasswordVC.swift */,
+				EFC574E52642CA8400FDFBEC /* RegisterVehicleVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EFC574D82642672500FDFBEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EFC574D92642673300FDFBEC /* User.swift */,
+				EFC574DB2642677E00FDFBEC /* Location.swift */,
+				EFC574E72642DA3F00FDFBEC /* Vehicle.swift */,
+				EF4B308C264E442E0019A1FE /* Device.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EFC574DD264269BE00FDFBEC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EFC574DE264269DC00FDFBEC /* UserService.swift */,
+				EFC574E326427D3100FDFBEC /* DeviceService.swift */,
+				EFC574E92642DAFB00FDFBEC /* VehicleService.swift */,
+				EF4B308A264D87B20019A1FE /* LocationService.swift */,
+				EF4B308E264E84CC0019A1FE /* MailerService.swift */,
+				EFC574EB2643082900FDFBEC /* PayloadService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EFC574E02642770900FDFBEC /* Statics */ = {
+			isa = PBXGroup;
+			children = (
+				EFC574E12642771E00FDFBEC /* Statics.swift */,
+			);
+			path = Statics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF1465B825677EAA00AD882B /* VTPLRS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1465CD25677EAF00AD882B /* Build configuration list for PBXNativeTarget "VTPLRS" */;
+			buildPhases = (
+				EF1465B525677EAA00AD882B /* Sources */,
+				EF1465B625677EAA00AD882B /* Frameworks */,
+				EF1465B725677EAA00AD882B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VTPLRS;
+			productName = VTPLRS;
+			productReference = EF1465B925677EAA00AD882B /* VTPLRS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1465B125677EAA00AD882B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Abhishek Dantale";
+				TargetAttributes = {
+					EF1465B825677EAA00AD882B = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = EF1465B425677EAA00AD882B /* Build configuration list for PBXProject "VTPLRS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF1465B025677EAA00AD882B;
+			productRefGroup = EF1465BA25677EAA00AD882B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF1465B825677EAA00AD882B /* VTPLRS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF1465B725677EAA00AD882B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1465C925677EAF00AD882B /* LaunchScreen.storyboard in Resources */,
+				EF1465C625677EAF00AD882B /* Assets.xcassets in Resources */,
+				EF1465C425677EAA00AD882B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF1465B525677EAA00AD882B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC574EA2642DAFB00FDFBEC /* VehicleService.swift in Sources */,
+				EF4B308F264E84CC0019A1FE /* MailerService.swift in Sources */,
+				EFC574DA2642673300FDFBEC /* User.swift in Sources */,
+				EF37E4DC2567E25000AE3219 /* RecoverPasswordVC.swift in Sources */,
+				EFC574E62642CA8400FDFBEC /* RegisterVehicleVC.swift in Sources */,
+				EFC574E82642DA3F00FDFBEC /* Vehicle.swift in Sources */,
+				EF1465C125677EAA00AD882B /* ViewController.swift in Sources */,
+				EF4B308B264D87B20019A1FE /* LocationService.swift in Sources */,
+				EFC574E22642771E00FDFBEC /* Statics.swift in Sources */,
+				EF1465BD25677EAA00AD882B /* AppDelegate.swift in Sources */,
+				EF1465D72567B71100AD882B /* ProfileVC.swift in Sources */,
+				EF1465D12567959600AD882B /* LocationHistoryVC.swift in Sources */,
+				EFC574DC2642677E00FDFBEC /* Location.swift in Sources */,
+				EF1465E02567C4A000AD882B /* RegisterVC.swift in Sources */,
+				EFC574E426427D3100FDFBEC /* DeviceService.swift in Sources */,
+				EFC574EC2643082900FDFBEC /* PayloadService.swift in Sources */,
+				EF1465DE2567C48600AD882B /* SignInVC.swift in Sources */,
+				EF1465D32567A0C100AD882B /* VehicleDetailsVC.swift in Sources */,
+				EF1465BF25677EAA00AD882B /* SceneDelegate.swift in Sources */,
+				EFC574DF264269DC00FDFBEC /* UserService.swift in Sources */,
+				EF1465D92567BCD600AD882B /* ReportTheftVC.swift in Sources */,
+				EF1465DB2567C1A300AD882B /* MainHomeVC.swift in Sources */,
+				EF4B308D264E442E0019A1FE /* Device.swift in Sources */,
+				EF1465D52567B2BD00AD882B /* SettingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF1465C225677EAA00AD882B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1465C325677EAA00AD882B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF1465C725677EAF00AD882B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1465C825677EAF00AD882B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF1465CB25677EAF00AD882B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF1465CC25677EAF00AD882B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF1465CE25677EAF00AD882B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DSJM2CWJL4;
+				INFOPLIST_FILE = VTPLRS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AbhishekHDantale.VTPLRS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF1465CF25677EAF00AD882B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DSJM2CWJL4;
+				INFOPLIST_FILE = VTPLRS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AbhishekHDantale.VTPLRS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1465B425677EAA00AD882B /* Build configuration list for PBXProject "VTPLRS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1465CB25677EAF00AD882B /* Debug */,
+				EF1465CC25677EAF00AD882B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1465CD25677EAF00AD882B /* Build configuration list for PBXNativeTarget "VTPLRS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1465CE25677EAF00AD882B /* Debug */,
+				EF1465CF25677EAF00AD882B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF1465B125677EAA00AD882B /* Project object */;
+}
